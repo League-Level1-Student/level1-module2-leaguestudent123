@@ -4,8 +4,8 @@ public class superpowers {
 	
 	public String superpower;
 	
-	void name(String name) {
-		name=name;
+	void Setname(String name) {
+		this.name=name;
 	
 	}
 	String name() {

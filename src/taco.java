@@ -5,7 +5,7 @@ public class taco {
 	private String sauce;
 	
 	void setMeat(String meat) {
-		meat = meat;
+		this.meat = meat;
 	}
 	
 	String getMeat() {
