@@ -2,9 +2,14 @@ package _04_tea_maker;
 
 public class tea {
 public static void main(String[] args) {
-	TeaBag TeaBag=new TeaBag("TeaBag");
+	TeaBag teaBag=new TeaBag(TeaBag.GREEN);
+	Cup cup= new Cup();
+	Kettle kettle=new Kettle();
 	
-	String flavor= TeaBag.getFlavor();
-	flavor.Water(true);
+	
+	kettle.boil();
+	cup.makeTea(teaBag, kettle.getWater());
+	
+	
 }
 }
