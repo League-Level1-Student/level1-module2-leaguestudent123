@@ -57,6 +57,7 @@ public class PixelParty {
 						img.setRGB(x2, y2, getRandomColor());
 					}
 					else {
+						
 						img.setRGB(x2, y2, currentColor);
 					}
 				}
